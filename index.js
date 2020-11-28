@@ -6,7 +6,7 @@ const logs=require("./routes/log");
 const helmet=require("helmet");
 
 mongoose
-  .connect("mongodb://localhost/weatherlogs")
+  .connect(process.env.MONGODB_URI||"mongodb://localhost/weatherlogs")
   .then(() => console.log("connected to mongo DB..."))
   .catch(() => console.log("COULDNOT connect to mongo DB..."));
 
