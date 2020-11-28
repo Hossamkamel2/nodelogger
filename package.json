@@ -1,0 +1,28 @@
+{
+  "name": "weatherlogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hossamkamel2/nodelogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hossamkamel2/nodelogger/issues"
+  },
+  "homepage": "https://github.com/Hossamkamel2/nodelogger#readme"
+}
